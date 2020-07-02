@@ -10,4 +10,7 @@ pytest -s -v --browser_name=chrome test_items.py
 pytest -s -v --browser_name=firefox test_items.py
 
 
-Задание: запуск автотестов для разных языков интерфейса
+Задание: запуск автотестов для разных языков интерфейса:
+
+pytest -s -v --browser_name=chrome --language=en test_items.py
+
