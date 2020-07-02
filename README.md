@@ -14,3 +14,5 @@ pytest -s -v --browser_name=firefox test_items.py
 
 pytest -s -v --browser_name=chrome --language=en test_items.py
 
+pytest -s -v --browser_name=firefox --language=en test_items.py
+
